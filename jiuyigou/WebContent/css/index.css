@@ -1,0 +1,104 @@
+@charset "utf-8";
+/*
+ * 项目：久义APPa
+ * 功能：首页
+ * 时间：2016.12.19
+ * 
+ * */
+/*==========================首页============================*/
+/*轮播导航*/
+.index-banner{position:relative;overflow:hidden;}
+.index-banner img{width:100%;}
+/*===================首页=========================*/
+.hot-enter{padding-top: 20px;}
+.hot-enter li{clear: both;overflow: hidden;}
+.hot-enter li a {display:block;width: 25%; float: left; text-align: center;padding-bottom:20px;font-size: 13px;}
+.hot-enter li a i{display:  inline-block; width: 50px; height: 50px; border-radius: 35%;background: #f00c36;color: #fff;font-size: 30px;padding-top: 9px;margin-bottom: 5px;}
+.hot-enter li a i.icon-calculator{
+background: -moz-linear-gradient(top, #f00d38, #f8598e);
+background: -webkit-gradient(linear,top,from(#f00d38),to(#f8598e));
+background: -webkit-linear-gradient(top, #f00d38, #f8598e);
+background: -o-linear-gradient(top, #f00d38, #f8598e);
+ }
+ .hot-enter li a i.icon-miaosha{
+background: -moz-linear-gradient(top, #ff7e0a, #ffc92f);
+background: -webkit-gradient(linear,top,from(#ff7e0a),to(#ffc92f));
+background: -webkit-linear-gradient(top, #ff7e0a, #ffc92f);
+background: -o-linear-gradient(top, #ff7e0a, #ffc92f);
+ }
+.hot-enter li a i.icon-yun{
+background: -moz-linear-gradient(top, #9325e9, #db39fd);
+background: -webkit-gradient(linear,top,from(#9325e9),to(#db39fd));
+background: -webkit-linear-gradient(top, #9325e9, #db39fd);
+background: -o-linear-gradient(top, #9325e9, #db39fd);
+ }
+.hot-enter li a i.icon-naozhong{
+background: -moz-linear-gradient(top, #2cba2b, #6cea50);
+background: -webkit-gradient(linear,top,from(#2cba2b),to(#6cea50));
+background: -webkit-linear-gradient(top, #2cba2b, #6cea50);
+background: -o-linear-gradient(top, #2cba2b, #6cea50);
+ }
+.hot-enter li a i.icon-zhongchou{
+background: -moz-linear-gradient(top, #6aca34, #e3f20e);
+background: -webkit-gradient(linear,top,from(#6aca34),to(#e3f20e));
+background: -webkit-linear-gradient(top, #6aca34, #e3f20e);
+background: -o-linear-gradient(top, #6aca34, #e3f20e);
+ }
+  .hot-enter li a i.icon-40kanjia{
+background: -moz-linear-gradient(top, #0094e2, #00c5fa);
+background: -webkit-gradient(linear,top,from(#0094e2),to(#00c5fa));
+background: -webkit-linear-gradient(top, #0094e2, #00c5fa);
+background: -o-linear-gradient(top, #0094e2, #00c5fa);
+ }
+  .hot-enter li a i.icon-yiyuanqiang{
+background: -moz-linear-gradient(top, #f422d2, #fc4e87);
+background: -webkit-gradient(linear,top,from(#f422d2),to(#fc4e87));
+background: -webkit-linear-gradient(top, #f422d2, #fc4e87);
+background: -o-linear-gradient(top, #f422d2, #fc4e87);
+ }
+  .hot-enter li a i.icon-pintuan{
+background: -moz-linear-gradient(top, #ff9900, #feea1a);
+background: -webkit-gradient(linear,top,from(#ff9900),to(#feea1a));
+background: -webkit-linear-gradient(top, #ff9900, #feea1a);
+background: -o-linear-gradient(top, #ff9900, #feea1a);
+ }
+.regist-box .regist-enter{display: block; }
+.regist-box .regist-enter img{width: 100%; height: auto;}
+/*品牌活动*/
+.index-title,.activity-item{position: relative;background: #fff;}
+.index-title img,.activity-item img{display: block;width: 100%; height: auto;}
+.index-title .title-text{position: absolute; left: 0; top: 30%; margin-left: -1%; width: 100%;text-align: center; }
+.activity-item a{display: block;}
+.theme{font:bold 15px/20px "arial, helvetica, sans-serif";color: #f94c53; }
+.subTheme{display: block; font-size: 10px;color: #666;font-family: simsun;margin-top: 2px;}
+.day-tip{position: absolute;left: 0; top: 0; background: #f94c53;width: 50px; height: 23px;line-height: 23px; text-align: center; color: #fff;}
+.day-tip:after{content: '';position: absolute;left:49px; top: 0;background: #f94c53;width: 20px; height: 23px;border-radius: 0 0  100% 0;}
+.shop-name{padding: 10px;}
+/*疯狂划算*/
+.crazy .goods-img{display: block; width: 50%;}
+.crazy .goods-img img{width: 100%; height: auto;max-height: 200px;max-width: 200px; min-height:150px;min-width: 150px;}
+.crazy .goods-info{width: 50%;padding-left: 10px;}
+.crazy .goods-info .name{border-bottom: 1px dashed #e5e5ee;font-size: 14px; padding:5px 0; line-height: 20px; text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.crazy .goods-info .sales-volume{position: relative; width: 70px; text-align: center; height: 21px;line-height:21px; background: #fd9094; color: #fff; margin: 10px 0;}
+.crazy .goods-info .sales-volume:after{content: '';position: absolute;left:69px;top: 0; border-color: #fff #fff #fff #fd9094  ; border-style: dashed dashed dashed solid ; border-width:10.5px; height: 0; width: 0;}
+.crazy .goods-info .price{color: #c00;font: 15px arial;}
+.buy-btn{display: block;width: 65%; text-align: center; margin-top:10px; color: #fff;padding: 5px 0; font-size: 14px;background: #f94c53; border-radius: 5px; -webkit-border-radius:5px;}
+/*秒杀开抢*/
+.mskq .goods-list .img-box{max-height: 200px;text-align: center;}
+.mskq .goods-list .img-box img{max-height: 200px;max-width: 200px; min-height:155px;min-width: 155px;}
+.goods-list li{width: 50%;float: left; }
+.goods-list li a{position: relative;z-index: 9; display: block;background: #fff;margin: 5px 5px 0 0; max-height: 280px; min-height: 230px;padding-bottom: 10px;}
+.goods-list li a .name{font-size: 14px; color: #666; height: 25px; line-height: 25px; padding: 0 10px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.goods-list li a .price{color: #c30909; font-size: 15px;padding: 0 10px; margin-top: 5px;}
+.goods-list li a .process-box{position: relative;  padding: 0 10px;}
+.goods-list li a .process-bar{position: relative; z-index: 9; display: block;}
+.process-bar img{width: 100%; height: 4px;}
+.process-bg{position:absolute;right: 10px; bottom:4px; z-index: 10; display: block;height: 4px;background: #ddd; border-radius:0 2px 2px  0;}
+.sales-status{position: absolute;left: 0; top: 0; z-index: 99;width: 66px; height: 68px; background: url(../images/index-flag-bg.png) no-repeat left top; background-size: 137px 68px;}
+.sales-out{background-position: -71px 0;}
+/*云购夺宝*/
+.join-treasure{margin:3px  10px 0 10px;text-align: center;}
+.join-treasure span{ background: #f94c53;color: #fff;font-size: 14px; padding: 2% 10%; border-radius: 5%; -weblit-border-radius: 5%;}
+.join-treasure span.grey{background: #ddd;color: #fff;}
+/*砍价专场*/
+.kanjia li a .price{padding: 10px 0 0 0; margin: 5px 10px 0 10px; border-top: 1px dashed #ddd;}
